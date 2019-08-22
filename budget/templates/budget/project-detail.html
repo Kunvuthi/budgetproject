@@ -1,1 +1,40 @@
-<h1>Project Detail View</h1>
+{% extends 'budget/base.html' %}
+{% block content %}
+
+<div class="container">
+
+    <section class="section section-stats">
+        <div class="row">
+
+
+            <div class="col s4 m12 14">
+                <div class="card-panel pink lighten-1">
+                    <h6 class="bold">Total Budget</h6>
+                    <h1 class="bold">$5000</h1>
+                </div>
+            </div>
+
+
+            <div class="col s4 m6 14">
+                <div class="card-panel">
+                    <h6 class="bold">Budget Left</h6>
+                    <h1 class="bold">$5000</h1>
+                </div>
+            </div>
+
+
+            <div class="col s4 m6 14">
+                <div class="card-panel">
+                    <h6 class="bold">Total Transaction</h6>
+                    <h1 class="bold">$5000</h1>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+</div>
+
+{% endblock %}
+

@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+/*  General  */
+html {
+    font-family: 'Montserrat';
+    background-color: #DFCDC0;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+
+/*  project list (no projects) */
+.noproject-wrapper {
+    margin-top: 250px;
+    padding: 80px 0px;
+    border: 6px solid palevioletred;
+    border-style: dashed;
+}
+
+.noproject-wrapper h3 {
+    padding: 10px;
+    margin-bottom: 50px;
+}
+
+
+
+/*  project details stats  */
+.section-stats .card-panel {
+    margin: 8px;
+}
+
+.section-stats h1 {
+    font-size: 4vw;
+    margin: 15px 0px;
+}
