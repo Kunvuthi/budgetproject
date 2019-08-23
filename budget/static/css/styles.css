@@ -29,6 +29,14 @@ html {
 }
 
 
+/*  project add view */
+form ul li.category{
+    display: inline-block;
+    background-color: white;
+    padding: 5px 10px;
+}
+
+
 /*  project details stats  */
 .section-stats h1 {
     font-size: 4vw;
@@ -61,3 +69,5 @@ html {
 .section-expenses li:nth-child(even) .expense {
     background-color: #f2f2f2;
 }
+
+
